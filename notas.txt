@@ -1,0 +1,17 @@
+import Component from './component';
+ <Component/>
+ 
+ {/*<a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>*/}
+
+              {/* <img src={logo} className="App-logo" alt="logo" />*/}
+
+                     <img src={agro} className="App-fondo" alg="fondo"/>
+
+                     

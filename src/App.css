@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('./imagenes/agro.jpg');
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,12 @@
   color: white;
 }
 
-.App-link {
+/*.App-fondo{
+  height: 100px;
+  width: 100px;
+}*/
+
+/*.App-link {
   color: #61dafb;
 }
 
@@ -36,3 +41,4 @@
     transform: rotate(360deg);
   }
 }
+*/
