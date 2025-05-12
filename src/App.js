@@ -1,14 +1,20 @@
 import './App.css';
+import maiz from './imagenes/maiz2-removebg-preview.png';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <img src={maiz} className="App-icono" alt="icono"/>
         <p>
           Cuayicentli
         </p>
-      </header>
+        {/* }<a href="./login.html">
+          <button class="btn btn-succes" id="inicio">Iniciar sesión</button>
+        </a>
+        <a href="./crearcuenta.html">
+          <button class="btn btn-success" id="registro">Registro</button>
+        </a>*/}
     </div>
   );
 }

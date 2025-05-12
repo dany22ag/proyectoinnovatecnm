@@ -1,20 +1,10 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-image: url('./imagenes/agro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,6 +14,19 @@
   color: white;
 }
 
+.App-icono {
+  height: 40vmin;
+  pointer-events: none;
+  height: 100px;
+  width: 100px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-icono {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
 /*.App-fondo{
   height: 100px;
   width: 100px;
@@ -31,9 +34,9 @@
 
 /*.App-link {
   color: #61dafb;
-}
+}*/
 
-@keyframes App-logo-spin {
+@keyframes App-icono-spin {
   from {
     transform: rotate(0deg);
   }
@@ -41,4 +44,3 @@
     transform: rotate(360deg);
   }
 }
-*/
