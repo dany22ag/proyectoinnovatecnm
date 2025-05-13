@@ -15,8 +15,8 @@
 }
 
 .App-icono {
-  height: 40vmin;
-  pointer-events: none;
+  margin-bottom: -45px;
+  margin-left: 200px;
   height: 100px;
   width: 100px;
 }
@@ -43,4 +43,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title{
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.user{
+    width: 50px;
+    position: absolute;
+    bottom: 85%;
+    left:6%;
+    transform: translateX(-50%) rotate(0deg);    
+}
+
+.password{
+    width: 20px;
+    position: absolute;
+    bottom: 50%;
+    left:5%;
+    transform: translateX(-50%) rotate(0deg);
 }
