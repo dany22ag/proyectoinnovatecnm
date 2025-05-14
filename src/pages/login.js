@@ -20,7 +20,7 @@ function Login() {
                 </a>
                 <div className="pregunta">
                     <label className="form-label">¿No tienes cuenta?</label>
-                    <a href="crearcuenta.html" className="link">Registro aquí</a>
+                    <a href="./crearcuenta" className="link">Registro aquí</a>
                 </div>
             </form>
         </div>
