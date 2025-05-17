@@ -1,4 +1,5 @@
 import '../App';
+import {Link} from 'react-router-dom';
 
 function Login() {
     return (
@@ -20,7 +21,7 @@ function Login() {
                 </a>
                 <div className="pregunta">
                     <label className="form-label">¿No tienes cuenta?</label>
-                    <a href="./crearcuenta" className="link">Registro aquí</a>
+                    <Link to="/crearcuenta" className="link">Registro aquí</Link>
                 </div>
             </form>
         </div>
