@@ -16,9 +16,9 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path="/crearcuenta" element={<Crearcuenta/>}/>
         <Route path="/bienvenida" element={<Bienvenida/>}/>
-      {/*  <Route path="/configuracion" element={<Configuracion/>}/>
+     {/*<Route path="/configuracion" element={<Configuracion/>}/>
         <Route path="/analisis" element={<Analisis/>}/>
-        <Route path="/monitoreo" element={<Monitoreo/>}/> */}
+        <Route path="/monitoreo" element={<Monitoreo/>}/>*/}
       </Routes>
     </Router>
   );

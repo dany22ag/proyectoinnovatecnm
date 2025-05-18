@@ -4,14 +4,18 @@ import {Link} from 'react-router-dom';
 function Crearcuenta(){
     return(
         <div className="registro">
-            <h1 className="">CREAR CUENTA</h1>
+            <h1 className="titulo2">CREAR CUENTA</h1>
             <form className="formularioRegistro">
                 <div className="mb-3">
-                    <label for="exampleInputApellido1" className="form-label">Apellido:</label>
+                    <label for="exampleInputNombre" className="form-label">Nombre:</label>
+                <input type="text" className="form-control" id="exampleInputNombre"></input>
+                </div>
+                <div className="mb-3">
+                    <label for="exampleInputApellido1" className="form-label">Apellido paterno:</label>
                 <input type="text" className="form-control" id="exampleInputApellido1"></input>
                 </div>
                 <div className="mb-3">
-                    <label for="exampleInputApellido1" className="form-label">Apellido:</label>
+                    <label for="exampleInputApellido1" className="form-label">Apellido materno:</label>
                     <input type="text" className="form-control" id="exampleInputApellido1"/>
                 </div>
                 <div className="mb-3">

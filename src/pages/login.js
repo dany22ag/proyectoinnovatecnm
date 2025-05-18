@@ -13,7 +13,7 @@ function Login() {
                 </div>
                 <div className="mb-3">
                     <img src="../imagenes/llave-removebg-preview.png" className="password"/>
-                    <label for="contraseña" className="form-label" id="etiqueta1">Contraseña:</label>
+                    <label for="contraseña" className="form-label" id="etiqueta2">Contraseña:</label>
                     <input type="text" className="form-control" id="contraseña"/>
                 </div>
                 <Link to="/bienvenida">
